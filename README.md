@@ -20,6 +20,10 @@ Adapt to your purpose, e.g., querying internal sensitive docs.
 
 ## Setup
 
+You will need to create a couple of directories, one for your chat model, and one for docs that your want to query. I recommend having a look at some open source models from hugging face
+able [models from hugging face](https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF). 
+
+
 ### **Required Directories**
 1. **`chat_model/` Directory**:
    > Contains the Llama-2 model file (e.g., `openhermes-2.5-mistral-7b.Q5_K_M.gguf`).
