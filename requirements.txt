@@ -1,0 +1,10 @@
+fastapi==0.100.0  # Ensure compatibility with the latest stable version
+uvicorn[standard]==0.23.0  # For running the FastAPI app
+pydantic==1.10.0  # For data validation and models
+langchain==0.0.275  # Main library for LLM and agents
+langchain-core==0.0.8  # Core components of LangChain
+langchain-community==0.1.4  # Community-supported modules for LangChain
+openai==0.27.8  # Required for OpenAI embeddings
+chromadb==0.4.0  # Vectorstore for Chroma
+python-dotenv==1.0.0  # For .env file loading
+bs4==0.0.1  # Beautiful Soup (used in `bs4`)
