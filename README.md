@@ -1,6 +1,7 @@
 # LangChain Local Run with Llama
 
-A conversational AI system powered by LangChain, integrated with a locally hosted Llama-2 model, and capable of querying document-based knowledge bases.
+Example of conversational AI in **LangChain**, integrated with a locally hosted **Llama-2 model**, and capable of querying document-based knowledge bases.
+FastAPI powers the backend, so this can be called from a chatbot app.
 
 Adapt to your purpose, e.g., querying internal sensitive docs.
 
