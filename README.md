@@ -12,7 +12,20 @@ Adapt to your purpose, e.g., querying internal sensitive docs.
   - CSV
   - PowerPoint
 - **Tools and Domains**:
-  - **Support Tool**: Answers IT support-related queries.
-  - **HR Tool**: Handles human resources questions.
+- Have multiple tools to improve doc retrieval
 - **Session-Based Memory**: Retains conversation history for context-aware interactions.
 - **Custom Agent Prompt**: Provides step-by-step reasoning and decision-making.
+
+
+## Setup
+
+### **Required Directories**
+1. **`chat_model/` Directory**:
+   > Contains the Llama-2 model file (e.g., `openhermes-2.5-mistral-7b.Q5_K_M.gguf`).
+   > Ensure the model is compatible with `ChatLlamaCpp`.
+
+2. **`docs_to_query/` Directory**:
+   > Subdirectories to organize your documents by domain:
+   e.g.
+   > - `support/` for IT-related documents.
+   > Place the documents you want to query here in supported formats (PDF, Word, CSV, PowerPoint).
